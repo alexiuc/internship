@@ -1,0 +1,68 @@
+@media (max-width: 428px) {
+    body {
+        background: #000040;
+        font-family: 'Rubik';
+        padding: 15px;
+        color:#FFFFFF;
+        height: 800px; /* here come back */
+    }
+
+    h1{
+        font-size: 30px;
+        margin: 0;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 20px;
+        margin-top: 14px;
+        margin-bottom: 14px; 
+    }
+
+    p{
+        font-size: 16px;
+        color: #B9B2C4;
+        margin:0
+    }
+    header{
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    nav{
+        position: fixed;
+        width: 87%; 
+        height: 60px;
+        bottom: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background: linear-gradient(180deg, #20204D 0%, #1D1D55 100%);
+        border: 1px solid #383467;
+        border-radius: 40px;
+    }
+
+    .nav-link{
+        width: 20%;
+        text-align: center;
+    }
+
+    .nav-link:first-child {
+        margin-left: 15px; 
+      }
+
+    .nav-link:last-child {
+        margin-right: 15px; 
+    }
+
+    .nav-link:nth-child(3){
+        background-image: radial-gradient(at 96% 2%, rgb(250, 0, 255) -40%, transparent 90%), radial-gradient(at 1% 2%, rgb(0, 255, 56) -20%, transparent 90%), radial-gradient(at 1% 94%, rgb(66, 0, 255) -40%, transparent 90%), radial-gradient(at 96% 95%, rgb(0, 240, 255) -20%, transparent 90%);
+        border: 1.5px solid rgb(132, 154, 149);
+        height: 58px;
+        border-radius: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

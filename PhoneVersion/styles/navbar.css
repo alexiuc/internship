@@ -1,0 +1,35 @@
+nav{
+    position: fixed;
+    width: 87%; 
+    height: 60px;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;     
+    background: linear-gradient(180deg, #20204D 0%, #1D1D55 100%);
+    border: 1px solid #383467;
+    border-radius: 40px;
+}
+
+.nav-link{
+    width: 20%;
+    text-align: center;
+}
+
+.nav-link:first-child{
+    margin-left: 15px; 
+  }
+
+.nav-link:last-child{
+    margin-right: 15px; 
+}
+
+.nav-link:nth-child(3){  
+    background-image: radial-gradient(at 96% 2%, rgb(250, 0, 255) -40%, transparent 90%), radial-gradient(at 1% 2%, rgb(0, 255, 56) -20%, transparent 90%), radial-gradient(at 1% 94%, rgb(66, 0, 255) -40%, transparent 90%), radial-gradient(at 96% 95%, rgb(0, 240, 255) -20%, transparent 90%);
+    border: 1.5px solid rgb(132, 154, 149);
+    height: 58px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

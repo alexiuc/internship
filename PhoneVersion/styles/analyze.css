@@ -1,10 +1,10 @@
-@media (max-width: 428px) {
-    body {
+@media (max-width: 428px){
+    body{
         background: #000040;
         font-family: 'Rubik';
         padding: 15px;
         color:#FFFFFF;
-        height: 800px; /* here come back */
+        height: 800px; 
     }
 
     h1{
@@ -35,14 +35,14 @@
         grid-template-columns: repeat(3, 1fr);
     }
 
-    .arrow {
+    .arrow{
         border: solid black;
         border-width: 3px 0 0 3px;  
         width: 13px;
         height: 13px;
       }
 
-    .arrow.left {
+    .arrow.left{
         border-color: #FFFFFF ;
         transform: rotate(-45deg);
     }
@@ -55,6 +55,10 @@
         height: 9px;
     }
 
+    section#graphic div{
+        position: relative;
+    }
+
     section#graphic div.month{
         margin-top: 10px;
         margin-bottom: 11px;
@@ -65,7 +69,42 @@
         gap: 10px;      
     }
 
-    section#graphic div.date{
+    section#graphic div img{
+        width: 100%;
+        z-index: -1;
+    }
+
+    section#graphic div.container{
+        position: absolute;
+        top: 22%;
+        left: 41%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section#graphic div.money{
+        width: 58px;
+        height: 25px;
+        display: grid;
+        place-items: center;
+        color: #FFF;
+        font-size: 14px;
+    }
+
+    section#graphic div.circle{
+        width: 7px;
+        height: 7px;
+        margin-top: 5px;
+    }
+
+    section#graphic .money, .circle{
+        background-color: #E42BC9;
+        border-radius: 10px;
+        border: 2px solid #ff78db;
+    }
+
+    section#graphic div.mont-date{
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -108,41 +147,5 @@
 
     table tbody td{
         padding: 1px;
-    }
-
-    nav{
-        position: fixed;
-        width: 87%; 
-        height: 60px;
-        bottom: 20px;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;        
-        background: linear-gradient(180deg, #20204D 0%, #1D1D55 100%);
-        border: 1px solid #383467;
-        border-radius: 40px;
-    }
-
-    .nav-link{
-        width: 20%;
-        text-align: center;
-    }
-
-    .nav-link:first-child {
-        margin-left: 15px; 
-      }
-
-    .nav-link:last-child {
-        margin-right: 15px; 
-    }
-
-    .nav-link:nth-child(3){
-        background-image: radial-gradient(at 96% 2%, rgb(250, 0, 255) -40%, transparent 90%), radial-gradient(at 1% 2%, rgb(0, 255, 56) -20%, transparent 90%), radial-gradient(at 1% 94%, rgb(66, 0, 255) -40%, transparent 90%), radial-gradient(at 96% 95%, rgb(0, 240, 255) -20%, transparent 90%);
-        border: 1.5px solid rgb(132, 154, 149);
-        height: 58px;
-        border-radius: 100px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
 }

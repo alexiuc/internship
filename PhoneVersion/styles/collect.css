@@ -1,0 +1,124 @@
+@media (max-width: 428px){
+    body{
+        background: #000040;
+        font-family: 'Rubik';
+        padding: 15px;
+        color:#FFFFFF;
+        height: 800px; 
+    }
+
+    h1{
+        font-size: 30px;
+        margin: 0;
+    }
+
+    h2{
+        font-size: 20px;
+        margin-top: 14px 0 14px 0;
+    }
+
+    p{
+        font-size: 16px;
+        color: #B9B2C4;
+        margin:0
+    }
+    header{
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+
+    #icon{
+       justify-self: end;  
+    }
+
+    article{
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+        gap: 4px;
+    }
+
+    section#card::-webkit-scrollbar{
+        background-color: transparent;
+    }
+
+    section#card{
+        height: 520px;
+        display: flex;
+        overflow-x: auto;
+    }
+
+    section#card #first-card, #second-card{
+        min-width: 460px;
+        max-width: 400px;
+        height: 280px;
+        rotate: -90deg;
+        margin:  120px -70px 0 -90px;
+        box-sizing: border-box;
+        padding: 45px;
+        display: flex;
+        align-items: end;
+        border: 1px solid rgb(85, 31, 83);
+        border-radius: 40px;  
+        background-color:#000040;
+        z-index: -1;
+    }
+
+    #first-card{
+        background-image:  linear-gradient(40deg , rgb(120, 28, 255) -20%, transparent 40%), linear-gradient(320deg , rgb(212, 30, 127) 0%, transparent 60%);
+    }
+
+    #second-card{
+        background-image:  linear-gradient(40deg , #1CFF5B -20%, transparent 40%), linear-gradient(320deg , #1ED4CA 0%, transparent 60%);
+    }
+
+    section#card div.card-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    section#card div p{
+        bottom: 52px;
+        color: white;
+        font-size: 21px;
+        
+    }
+
+    section#card div p.date{
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.7);
+        margin-top: 10px;
+    }
+
+    section#card img.vector{
+        position: absolute;
+        bottom: 115px;
+        right: 46px;
+    }
+
+    section#card img.mastercard{
+        position: absolute;
+        bottom: 40px;
+        right: 46px;
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    footer a{
+        background-color: #1F1F4E;
+        height: 8px;
+        width: 8px;
+        border: 3px solid #373785;
+        border-radius: 50%;
+    }
+    
+    a.active{
+        background-color: #2680B8;
+        border-color: #59b3eb;
+    }
+}

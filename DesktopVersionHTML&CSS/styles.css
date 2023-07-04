@@ -56,7 +56,6 @@ body{
     height: 800px;
     width: 370px;
     z-index: -1;
-    right: 0;
     top: -20px;
     right: -50px;
     border-bottom-left-radius: 100px;
@@ -143,7 +142,6 @@ div.line{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-
 }
 
 #about article div{
@@ -395,7 +393,7 @@ div.line{
 }
 #testimony article .arrow {
     width: 30px;
-    height: 0.3px;
+    height: 1px;
     background-color: black;
     position: relative;
 }
@@ -404,11 +402,11 @@ div.line{
     content: "";
     display: inline-block;
     width: 6px;
-    height: 0.3px;
+    height: 1px;
     background-color: #C4C4C4;
     transform: rotate(45deg);
     position: absolute;
-    top: 2.1px;
+    top: 2px;
     left: -1px;
 }
 
@@ -416,11 +414,11 @@ div.line{
     content: "";
     display: inline-block;
     width: 6px;
-    height: 0.3px;
+    height: 1px;
     background-color:#C4C4C4;
     transform: rotate(-45deg);
     position: absolute;
-    top: -2.1px;
+    top: -2px;
     left: -1px;
 }
 
@@ -428,11 +426,11 @@ div.line{
     content: "";
     display: inline-block;
     width: 6px;
-    height: 0.3px;
+    height: 1px;
     background-color: black;
     transform: rotate(45deg);
     position: absolute;
-    top: -2.1px;
+    top: -2px;
     right: -1px;
 }
 
@@ -440,11 +438,11 @@ div.line{
     content: "";
     display: inline-block;
     width: 6px;
-    height: 0.3px;
+    height: 1px;
     background-color: black;
     transform: rotate(-45deg);
     position: absolute;
-    top: 2.1px;
+    top: 2px;
     right: -1px;
 }
 
@@ -501,7 +499,6 @@ footer article input{
     width: 365px;
     height: 40px; 
     border-radius: 4px 0 0 4px;
-    border: none;
     border: 0.1px solid #DAA520;
     font-size: 16px;
 }
@@ -524,7 +521,6 @@ footer hr{
     width: 725px;
     margin-top: 86px;
     margin-left: 50px;
-    border: none;
     border: 0.1px solid #C4C4C4;
 }
 

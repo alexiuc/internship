@@ -1,0 +1,120 @@
+#logo{
+    display: flex;
+    flex-direction: column; 
+    align-items: start;
+}
+#logo h1{
+    font-size: 22px;
+    margin: 0;
+    font-weight: bold;
+}
+
+#logo h1:last-of-type{
+    color: #4E60FF;
+    margin-top: -12px;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    padding: 20px 15%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border-bottom: 1px solid var(--neutral-gray-lightnes);
+}
+
+header div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header form{
+    position: relative;
+    border-radius: 12px;
+    background-color: var(--neutral-gray-lightnes);
+    margin-left: 45px;
+    height: 40px;
+    width: 200px;
+    padding-right: 12px;
+}
+
+header input{
+    padding: 12px;
+    height: 100%;
+    border: none;
+    background: transparent;
+}
+
+header input::placeholder {
+    color: var(--neutral-gray);
+}
+
+header input:focus{
+    outline: none;
+}
+
+header .btn-search{
+    position: absolute;
+    top: 12px;
+    right: 7px;
+    border: none;
+    color: var(--neutral-gray);
+}
+
+header div.vertical-line{
+    height: 32px;
+    border: 1px solid var(--neutral-gray-lightnes);
+}
+
+header a{
+    text-decoration: none;
+    color:var(--neutral-black);
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0 14px;
+}
+
+header .btn-shop, .btn-acc{
+    position: relative;
+    border-radius: 16px;
+    display: grid;
+    place-content: center;
+}
+
+header .btn-shop{
+    border: 0;
+    background-color: var(--primary-light);
+    margin: 0 12px 0 5px;
+    width: 48px;
+    height: 48px;
+}
+
+header .shop-number{
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    width: 20px;
+    height: 20px;
+    display: grid;
+    place-content: center;
+    border-radius: 8px;
+    background-color: var(--primary-default);
+    color: white;
+    font-size: 10px;
+}
+
+header .btn-acc{
+    background-color: transparent;
+    border: 2px solid var(--neutral-gray-lightnes) ;
+    width: 50px;
+    height: 50px;
+}
+
+header .btn-acc img{
+    border-radius: 14px;
+    width: 44px;
+    height: 44px;
+}

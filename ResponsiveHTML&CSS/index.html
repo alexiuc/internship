@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;0,800;1,600&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <title>Food Delivery</title>
+</head>
+<body>
+    <section id="login">
+        <div id="logo">
+            <h1>Food</h1>
+            <h1>delivery</h1>
+        </div>
+        <form method="post" action="#">
+            <article>
+                <h1>Login</h1>
+                <p>Sign in with your data that you entered during your registration</p>   
+                <label for="email">
+                    <p class="datas">Email</p>
+                    <input id="email" name="email" type="email" placeholder="name@example.com" required/>
+                </label>
+                <label for="password">
+                    <p class="datas">Password</p>
+                    <input id="password" name="password" type="password" minlength="8" placeholder="min. 8 characters" required/>
+                </label>
+                <label for="keep-logged">
+                    <input id="keep-logged" type="checkbox" name="keep-logged" /><p class="check">Keep me logged in</p></a>
+                </label>
+                <div class="submit">
+                    <input type="submit" value="Login" formaction="home.html"/>
+                    <a href="home.html" class="btn-frg-password">Forgot password</a>
+                </div>       
+            </article>
+            </form>
+        <footer>
+            <p>Don't have an account? <a href="#">Sign up</a></p>
+        </footer>
+    </section>
+    <section id="view">
+        <div class="box first">
+            
+        </div>
+        <div class="box second">
+            <img src="assets/roll_set.svg" class="roll-set">
+            <h2 class="food-name">Roll set</h2>
+            <p class="food-about">Ea his sensibus eleifend, mollis iudicabit omittantur id mel. Et cum ignota euismod corpora, et saepe.</p>
+            <article>
+                <h1 class="food-price">$ 22.53</h1>
+                <a href="#" class="btn-add">+</a>
+            </article>
+        </div>
+        <div class="box third">
+            <img src="assets/nigiri_set.svg" class="nigiri-set">
+            <article>
+                <h2 class="food-name">Nigiri set</h2>
+                <p class="food-about">Ea his sensibus eleifend, mollis iudicabit omittantur id<br>mel. Et cum ignota euismod corpora, et saepe.</p> 
+                <h1 class="food-price">$ 16.80</h1>
+            </article>
+            <article>
+                <a href="#" class="btn-add cart">+ Add to cart</a>
+            </article>
+        </div>
+        <footer>
+            <h1>Leave reviews for all meals</h1>
+            <p>Lorem ipsum dolor sit amet, magna scaevola his ei. Cum te paulo probatus molestiae, eirmod assentior eum ne, et omnis antiopam mel.</p>
+            <article>
+                <a href="#"></a>
+                <a href="#" class="active"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+            </article>
+        </footer>
+    </section >
+</body>
+</html>

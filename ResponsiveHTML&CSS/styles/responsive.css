@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --neutral-gray: #83859C;
+    --gray-light:#C7C8D2;
+    --gray-dark: #545563;
+    --neutral-black: #2B2B43;
+    --primary-default: #4E60FF;
+    --primary-light: #F3F4FF;
+    --neutral-gray-lightnes: #EDEEF2;
+}
+
+@media only screen and (max-width: 480px){
+
+    section#login{
+        width: 100%;
+        padding: 20px 15px 10px 15px;
+    }
+
+    section#view{
+        display: none;
+    }
+
+    a, 
+    .form{
+        display: none;
+    }
+
+    header{
+        padding: 15px 20px;
+    }
+}
+

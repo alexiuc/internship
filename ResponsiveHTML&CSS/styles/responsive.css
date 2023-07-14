@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Nunito';
 }
 
 :root {
@@ -10,6 +11,16 @@
     --primary-default: #4E60FF;
     --primary-light: #F3F4FF;
     --neutral-gray-lightnes: #EDEEF2;
+    --secondary-light: #FFF3ED;
+    --secondary-default: #FD6D22;
+    --primary-lightnes: #F8F9FF;
+}
+
+@media (max-width: 1100px) {
+    section.offert {
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
 }
 
 @media only screen and (max-width: 480px){
@@ -21,15 +32,101 @@
 
     section#view{
         display: none;
+    } 
+    
+    #header{
+        padding: 10px 15px;
     }
 
-    a, 
+    #header a.header-link, 
     .form{
         display: none;
     }
 
-    header{
-        padding: 15px 20px;
+    #header div.reverse{
+        flex-direction: row-reverse;
+    }
+
+    #header .vertical-line{
+        margin: 0 15px 0 10px;
+    }
+
+    #header .menu-bar{
+        display: grid;
+    }
+
+    section#container {
+        margin: 100px 15px 0 15px;
+    }
+
+    #container .first-offert,
+    .second-offert{
+       flex-direction: column-reverse;
+       justify-content: space-between;
+       height: 290px;
+       padding: 0 16px;
+    }
+
+    #container .offert p{
+        margin: 23px 0;
+    }
+
+    #container .offert .column-two{
+        flex-direction: row;
+    }
+
+    #container .offert img{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #container nav{
+        gap: 15px;
+    }
+
+    #container .restoran{
+        display: flex;
+        flex-direction: column;
+    }
+
+    section#box{
+        display: flex;
+        flex-direction: column;
+        margin: 100px 15px 15px 15px;
+    }
+
+    #box main .first-article{
+        justify-content: space-between;
+    }
+
+    #box main .second-article{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #box main #email-notification{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #box footer{
+        flex-direction: column;
+        border: none;
+    }
+
+    #box footer button{
+        width: 100%;
+    }
+
+    #box footer div{
+        padding-top: 20px;
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid var(--neutral-gray-lightnes);
     }
 }
 

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;0,800;1,600&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/account.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <title>Food Delivery</title>
+</head>
+<body>
+   <header id="header">
+    <div>
+        <a href="home.html" id="logo">
+            <h1>Food</h1>
+            <h1>delivery</h1>
+        </a>
+        <div class="form">
+            <form>
+                <input id="search" name="search" type="text" placeholder="Search"/>
+                <button type="submit" class="btn-search"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </form>
+        </div>
+    </div>
+    <div class="reverse">
+        <div class="menu-bar">
+            <i class="fa fa-bars"></i>
+        </div>
+        <a href="#" class="header-link">Restaurants</a>
+        <a href="#" class="header-link">Deals</a>
+        <div class="vertical-line"></div>
+        <a href="#" class="header-link">My orders</a>
+        <div>
+            <a class="btn-shop">
+                <img src="assets/shop_bag.svg" />
+                <div class="shop-number">4</div>
+            </a>
+            <a href="account.html" class="btn-acc active">
+                <img src="assets/avatar.svg" />
+            </a>
+        </div>
+    </div>
+   </header>
+   <section id="box">
+        <aside>
+            <h1>Settings</h1>
+            <a href="#" class="active">
+                <div><img src="assets/user.svg"/></div>
+                <article>
+                    <h3><strong>Account</strong></h3>
+                    <p>Personal information</p>
+                </article>
+            </a>
+            <a href="#">
+                <div><img src="assets/map.svg"/></div>
+                <article>
+                    <h3><strong>Address</strong></h3>
+                    <p>Shippings addresses</p>
+                </article>
+            </a>
+            <a href="#">
+                <div><img src="assets/card.svg"/></div>
+                <article>
+                    <h3><strong>Payment method</strong></h3>
+                    <p>Connected credit cards</p>
+                </article>
+            </a>
+            <a href="#">
+                <div><img src="assets/vector.svg"/></div>
+                <article>
+                    <h3><strong>Security</strong></h3>
+                    <p>Password, 2FA</p>
+                </article>
+            </a>
+        </aside>
+        <section id="acc">
+            <h1>Account</h1>
+            <main>
+                <h2>Personal information</h2>
+                <fieldset>
+                    <label for="avatar">
+                        <p>Avatar</p>
+                        <article class="first-article">
+                            <img src="assets/avatar.svg">
+                            <button class="btn-change">Change</button>
+                            <button class="btn-remove">Remove</button>
+                        </article>
+                    </label>
+                    <article class="second-article">
+                        <label for="first-name">
+                            <p>First name</p>
+                            <input id="first-name" type="text">
+                        </label>
+                        <label for="last-name">
+                            <p>Last name</p>
+                            <input id="last-name" type="text">
+                        </label>
+                        <label for="email">
+                            <p>Email</p>
+                            <input id="first-name" type="email">
+                        </label>
+                        <label for="phone">
+                            <p>Phone number</p>
+                            <input id="phone" type="tel">
+                        </label>
+                    </article>
+                    <h2>Email notifications</h2>
+                    <label for="email-notification" id="email-notification">
+                        <div>
+                            <input type="checkbox"><p>New deals</p>
+                        </div>
+                        <div>
+                            <input type="checkbox"><p>Password changes</p>
+                        </div>
+                        <div>
+                            <input type="checkbox"><p>New restaurants</p>
+                        </div>
+                        <div>
+                            <input type="checkbox"><p>Special offers</p>
+                        </div>
+                        <div>
+                            <input type="checkbox"><p>Order statuses</p>
+                        </div>
+                        <div>
+                            <input type="checkbox"><p>Newsletter</p>
+                        </div>
+                    </label>
+                </fieldset>
+                <footer>
+                    <button class="btn-log-out">Log out</button>
+                    <div>
+                        <button class="btn-discard">Discard changes</button>
+                        <button class="btn-save">Save changes</button>
+                    </div>
+                </footer>
+            </main>
+        </section>
+   </section>
+</body>
+</html>

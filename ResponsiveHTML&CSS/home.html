@@ -11,7 +11,7 @@
     <title>Food Delivery</title>
 </head>
 <body>
-   <header>
+   <header id="header">
     <div>
         <div id="logo">
             <h1>Food</h1>
@@ -24,19 +24,144 @@
             </form>
         </div>
     </div>
-    <div>
-        <a href="#">Restaurants</a>
-        <a href="#">Deals</a>
+    <div class="reverse">
+        <div class="menu-bar">
+            <i class="fa fa-bars"></i>
+        </div>
+        <a href="#" class="header-link">Restaurants</a>
+        <a href="#" class="header-link">Deals</a>
         <div class="vertical-line"></div>
-        <a href="#">My orders</a>
-        <button class="btn-shop">
-            <img src="assets/shop_bag.svg" />
-            <div class="shop-number">4</div>
-        </button>
-        <button class="btn-acc">
-            <img src="assets/avatar.svg" />
-        </button>
+        <a href="#" class="header-link">My orders</a>
+        <div>
+            <a class="btn-shop">
+                <img src="assets/shop_bag.svg" />
+                <div class="shop-number">4</div>
+            </a>
+            <a href="account.html" class="btn-acc">
+                <img src="assets/avatar.svg" />
+            </a>
+        </div>
     </div>
    </header>
+   <section id="container">
+        <section class="offert">
+            <div class="first-offert">
+                <article class="column-one">
+                    <img src="assets/desert.svg">
+                </article>
+                <article class="column-two">
+                    <div>
+                        <h2>All deserts</h2>
+                        <h1>20% OFF</h1>
+                    </div>
+                    <p>Deserty</p>
+                </article>
+            </div>
+            <div class="second-offert">
+                <article class="column-one">
+                    <img src="assets/burger.svg">
+                </article>
+                <article class="column-two">
+                    <div>
+                        <h2>Big Burgers</h2>
+                        <h1>50% OFF</h1>
+                    </div>
+                    <p>Fooddies</p>
+                </article>
+            </div>
+        </section>
+        <nav>
+            <a href="#">
+                <img src="assets/pizza.svg">
+                <p>Pizza</p>
+            </a>
+            <a href="#" class="active">
+                <img src="assets/burger_mini.svg">
+                <p>Burger</p>
+            </a>
+            <a href="#">
+                <img src="assets/meat.svg">
+                <p>BBQ</p>
+            </a>
+            <a href="#" class="active">
+                <img src="assets/sushi.svg">
+                <p>Sushi</p>
+            </a>
+            <a href="#">
+                <img src="assets/broccoli.svg">
+                <p>Vegan</p>
+            </a>
+            <a href="#">
+                <img src="assets/cake.svg">
+                <p>Desserts</p>
+            </a>
+        </nav>
+        <h2>Nearby restaurants</h2>
+        <section class="restoran">
+            <div class="items">
+                <img src="assets/royal_sushi.svg">
+                <article class="items-first">
+                    <h1>Royal Sushi House</h1>
+                    <img src="assets/shop_bag.svg">
+                </article>
+                <article class="items-second">
+                    <img src="assets/clock.svg"/>
+                    <p>30-40 min</p>
+                    <div class="point"></div>
+                    <p>$32 min sum</p>
+                </article>
+                <article class="items-third">
+                    <div class="food-type">
+                        <img src="assets/sushi.svg">
+                        <p>Sushi</p>
+                    </div>
+                </article>
+                <div class="features"><p>FEATURED</p></div>
+            </div>
+            <div class="items">
+                <img src="assets/burged_and_pizza.svg">
+                <article class="items-first">
+                    <h1>Burgers & Pizza</h1>
+                    <img src="assets/shop_bag.svg">
+                </article>
+                <article class="items-second">
+                    <img src="assets/clock.svg"/>
+                    <p>40-60 min</p>
+                    <div class="point"></div>
+                    <p>$24 min sum</p>
+                </article>
+                <article class="items-third">
+                    <div class="food-type">
+                        <img src="assets/burger_mini.svg">
+                        <p>Burger</p>
+                    </div>
+                    <div class="food-type">
+                        <img src="assets/pizza.svg">
+                        <p>Pizza</p>
+                    </div>
+                </article>
+                <div class="features"><p>FEATURED</p></div>
+            </div>
+            <div class="items">
+                <img src="assets/ninja_sushi.svg">
+                <article class="items-first">
+                    <h1>Ninja sushi</h1>
+                    <img src="assets/shop_bag.svg">
+                </article>
+                <article class="items-second">
+                    <img src="assets/clock.svg"/>
+                    <p>20-40 min</p>
+                    <div class="point"></div>
+                    <p>$40 min sum</p>
+                </article>
+                <article class="items-third">
+                    <div class="food-type">
+                        <img src="assets/sushi.svg">
+                        <p>Sushi</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+   </section>
 </body>
 </html>

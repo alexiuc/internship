@@ -16,6 +16,28 @@
     --primary-lightnes: #F8F9FF;
 }
 
+@media only screen and (max-width: 1325px){
+    section#login{
+        padding: 1% 5%;
+        width: 35%;
+    }
+
+    section#view{
+        width: 65%;
+    }
+}
+
+@media only screen and (max-width: 1113px){
+    section#login{
+        width: 100%;
+        padding: 1% 30%;
+    }
+
+    section#view{
+        display: none;
+    } 
+}
+
 @media (max-width: 1100px) {
     section.offert {
         grid-template-columns: 1fr;

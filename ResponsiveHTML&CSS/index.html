@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;0,800;1,600&display=swap" rel="stylesheet">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/responsive.css">
     <link rel="stylesheet" href="styles/header.css">
@@ -42,7 +45,92 @@
     </section>
     <section id="view">
         <div class="box first">
-            
+            <div class="rating">
+                <div>
+                    <h3>Overall rating</h3>
+                    <article>
+                        <h1>4.2</h1>
+                        <span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                        </span>
+                        <p class="mini-text-gray">3 votes</p>
+                    </article>
+                </div>
+                <a>Leave review</a>
+            </div>
+            <div class="sort">
+                <a>
+                    <p class="mini-text-gray">Sort by: </p>
+                    <p class="text-dark"> Newest first</p>
+                    <div></div>
+                </a>
+            </div>
+            <div class="user-rating">
+                <img src="assets/avatar-user-one.svg">
+                <div class="content">
+                    <article>
+                        <h2>Savannah Miles</h2>
+                        <div>
+                            <span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </span>
+                            <p class="mini-text-gray">10 days ago</p>
+                        </div>
+                    </article>
+                    <p>
+                        Lorem ipsum dolor sit amet, adhuc nulla definiebas mei ad, ei doming aperiam delicata est.
+                    </p>
+                    <article>
+                        <div>
+                            <i class="fa fa-thumbs-up"></i>
+                            <p>14</p>
+                        </div>
+                        <div>
+                          <i class="fa fa-thumbs-o-down"></i>   
+                          <p>4</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="user-rating">
+                <img src="assets/avatar-user-two.svg">
+                <div class="content">
+                    <article>
+                        <h2>Jacob Jones</h2>
+                        <div>
+                            <span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star "></span>
+                            </span>
+                            <p class="mini-text-gray">1 days ago</p>
+                        </div>
+                    </article>
+                    <p>
+                        Lorem ipsum dolor sit amet, adhuc nulla definiebas mei ad, ei doming aperiam delicata est.
+                    </p>
+                    <article>
+                        <div>
+                            <i class="fa fa-thumbs-up"></i>
+                            <p>14</p>
+                        </div>
+                        <div>
+                          <i class="fa fa-thumbs-o-down"></i>   
+                          <p>4</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
         </div>
         <div class="box second">
             <img src="assets/roll_set.svg" class="roll-set">
@@ -57,10 +145,15 @@
             <img src="assets/nigiri_set.svg" class="nigiri-set">
             <article>
                 <h2 class="food-name">Nigiri set</h2>
-                <p class="food-about">Ea his sensibus eleifend, mollis iudicabit omittantur id<br>mel. Et cum ignota euismod corpora, et saepe.</p> 
+                <p class="food-about">Ea his sensibus eleifend, mollis iudicabit omittantur id mel. Et cum ignota euismod corpora, et saepe.</p> 
                 <h1 class="food-price">$ 16.80</h1>
             </article>
             <article>
+                <div>
+                    <a class="btn-add minus">-</a>
+                    <h3>1</h3>
+                    <a class="btn-add plus">+</a>
+                </div>
                 <a href="#" class="btn-add cart">+ Add to cart</a>
             </article>
         </div>
